@@ -21,7 +21,7 @@
     <li>Apa nama panjang anda?</li>
     <li>Anda masih bekerja?</li>
     <li>Berapa umur anda?</li>
-    <li>Anda laki-laki atau perempuan?</li>
+    <li>Anda laki atau perempuan?</li>
     <li>Apa film bioskop favorit anda?</li>
     <li>Kemana anda berpergian paling jauh?</li>
   </random>
@@ -100,74 +100,186 @@ wow, enak ya..<think><set name="it"><set name="berpergian"><person/></set></set>
 
 <category>
   <pattern>LAKI-LAKI</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template>aw..<srai>LAKI</srai></template>
+</category>
+
+<category>
+  <pattern>PRIA</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 <category>
   <pattern>PRIA *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 <category>
   <pattern>* PRIA</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 <category>
   <pattern>* PRIA *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 <category>
   <pattern>* LAKI</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 <category>
   <pattern>LAKI *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 
 <category>
   <pattern>* LAKI *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+
+<category>
+  <pattern>COWOK</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>LAKI</srai></template>
 </category>
 
 <category>
+  <pattern>COWOK *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+<category>
+  <pattern>* COWOK</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+<category>
+  <pattern>* COWOK *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+
+<category>
+  <pattern>CO</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+<category>
+  <pattern>CO *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+<category>
+  <pattern>* CO</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+<category>
+  <pattern>* CO *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>LAKI</srai></template>
+</category>
+
+
+<category>
+  <pattern>WANITA</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
   <pattern>WANITA *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>PEREMPUAN</srai></template>
 </category>
 
 <category>
   <pattern>* WANITA</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>PEREMPUAN</srai></template>
 </category>
 
 <category>
   <pattern>* WANITA *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>PEREMPUAN</srai></template>
 </category>
 
 <category>
   <pattern>* PEREMPUAN</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>PEREMPUAN</srai></template>
 </category>
 
 <category>
   <pattern>* PEREMPUAN *</pattern>
-  <that>ANDA LAKI-LAKI ATAU PEREMPUAN</that>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+
+<category>
+  <pattern>CEWEK</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>CEWEK *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>* CEWEK</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>* CEWEK *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>CW</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>CW *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>* CW</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
+  <template><srai>PEREMPUAN</srai></template>
+</category>
+
+<category>
+  <pattern>* CW *</pattern>
+  <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>PEREMPUAN</srai></template>
 </category>
 

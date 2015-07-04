@@ -8,6 +8,7 @@
 <!-- Load standard AIML set -->
 
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_udc.aiml</learn>
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_tanya.aiml</learn>
 
 </template>
 </category>
