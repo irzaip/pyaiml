@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+
+<category>
+<pattern>SALAM KENAL</pattern>
+
+<template>salam kenal juga dari saya</template>
+</category>
+
+ 
+
+<category>
+<pattern>SALAM KENAL *</pattern>
+
+<template>salam kenal juga dari saya</template>
+</category>
+
+</aiml>

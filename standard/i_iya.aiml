@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<category><pattern>YA</pattern><template><think><set name="language">INDONESIA</set></think>
+<random>
+<li>ya pastinya</li>
+<li>nah gitu dong</li>
+<li>bagus..</li>
+<li>yaaa.. oke dee</li>
+<li>saya suka itu.</li>
+<li>saya yakin anda setuju</li>
+<li>pasti iya..</li>
+<li>gitu dong.</li>
+<li>nah oke tuh..</li>
+<li>anda yakin?</li>
+<li>saya juga setuju..</li>
+<li>wah..</li>
+<li>betul??</li>
+<li>ok deee</li>
+<li>sip deh</li>
+</random>
+</template></category>
+
+<category><pattern>TIDAK</pattern><template><think><set name="language">INDONESIA</set></think>
+<random>
+<li>kenapa tidak?</li>
+<li>kok?</li>
+<li>iya dong..</li>
+<li>kayaknya iya deh..</li>
+<li>mungkin kita berbeda pendapat</li>
+<li>ya lah..</li>
+<li>he eh..</li>
+<li>he he he..</li>
+<li>tidak?</li>
+<li>tidak tidak tidak?</li>
+<li>sama sekali tidak?</li>
+<li>kapan iya nya?</li>
+<li>anda yakin?</li>
+<li>betul??</li>
+<li>oke dee</li>
+<li>sip dah..</li>
+</random>
+</template></category>
+
+<category><pattern>ada</pattern><template><srai>ya</srai></template></category>
+<category><pattern>ada *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ ada</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ ada *</pattern><template><srai>ya</srai></template></category>
+
+<category><pattern>CUKUP</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>CUKUP *</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ CUKUP</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ CUKUP *</pattern><template><srai>TIDAK</srai></template></category>
+
+<category><pattern>ENGGAK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>ENGGAK *</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ ENGGAK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ ENGGAK *</pattern><template><srai>TIDAK</srai></template></category>
+
+<category><pattern>GAK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>GAK *</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ GAK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ GAK *</pattern><template><srai>TIDAK</srai></template></category>
+
+<category><pattern>GK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>GK *</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ GK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ GK *</pattern><template><srai>TIDAK</srai></template></category>
+
+
+<category><pattern>TIDAK *</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ TIDAK</pattern><template><srai>TIDAK</srai></template></category>
+<category><pattern>_ TIDAK *</pattern><template><srai>TIDAK</srai></template></category>
+
+<category><pattern>betul</pattern><template><srai>ya</srai></template></category>
+<category><pattern>betul *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ betul</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ betul *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>betul</pattern><template><srai>ya</srai></template></category>
+
+<category><pattern>iya</pattern><template><srai>ya</srai></template></category>
+<category><pattern>iya *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ iya *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ iya</pattern><template><srai>ya</srai></template></category>
+
+
+<category><pattern>_ ya</pattern><template><srai>ya</srai></template></category>
+<category><pattern>_ ya *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>ya *</pattern><template><srai>ya</srai></template></category>
+
+
+
+
+
+</aiml>
+
