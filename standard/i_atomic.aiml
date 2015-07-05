@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+
+<category>
+  <pattern>HAI</pattern>
+  <template>
+  <random>
+    <li>Hai juga</li>
+    <li>Hallo</li>
+    <li>Apa kabar?</li>
+    <li>Haaaiiii</li>
+  </random>
+  </template>
+</category>
+
+<category>
+  <pattern>DAGH</pattern>
+  <template>
+  <random>
+    <li>Bubye</li>
+    <li>byeeee</li>
+    <li>Sampai jumpa</li>
+    <li>Sampai ketemu lagi</li>
+  </random>
+  </template>
+</category>
+
+<category>
+  <pattern>MOHON</pattern>
+  <template>
+  <random>
+    <li>Ok, saya usahakan</li>
+    <li>coba dulu yaa</li>
+    <li>ok dech</li>
+    <li>Siaap</li>
+  </random>
+  </template>
+</category>
+
+<category>
+  <pattern>TERIMA KASIH</pattern>
+  <template>
+  <random>
+    <li>Kembali</li>
+    <li>ok</li>
+    <li>no problem</li>
+    <li>gak masalah</li>
+  </random>
+  </template>
+</category>
+
+<category>
+  <pattern>SIAPA KAMU</pattern>
+  <template>
+  <random>
+    <li>Saya Irza</li>
+    <li>gue Irza</li>
+    <li>Irza Pulungan</li>
+    <li>Nama saya Irza</li>
+  </random>
+ </template>
+</category>
+
+
+</aiml>
