@@ -9,8 +9,6 @@
 
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_tanya.aiml</learn>
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_atomic.aiml</learn>
-<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_humor.aiml</learn>
-<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_gossip.aiml</learn>
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_hallo.aiml</learn>
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_iya.aiml</learn>
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_udc.aiml</learn>
@@ -25,6 +23,14 @@
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_peri_LMNOPQR.aiml</learn>
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_peri_STU.aiml</learn>
 <learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_peri_VWXYZ.aiml</learn>
+
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_humor.aiml</learn>
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_gossip.aiml</learn>
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_fakta.aiml</learn>
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_bijak.aiml</learn>
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_pantun.aiml</learn>
+
+<learn>D:/Portable/Portable Python 2.7.6.1/App/Lib/site-packages/pyaiml/standard/i_dialog.aiml</learn>
 
 </template>
 </category>

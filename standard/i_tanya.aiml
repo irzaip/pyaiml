@@ -2,11 +2,6 @@
 
 <aiml>
 
-<category>
-<pattern>STATUS</pattern>
-<template>Bahasa: <get name="language"/>, Nama : <get name="nama"/>, Umur : <get name="umur"/>, kelamin: <get name="gender"/>, Bekerja: <get name="bekerja"/>, p.jauh: <get name="berpergian"/>, Film: <get name="filmfav"/>
-</template>
-</category>
 
 <category>
   <pattern>_ nya *</pattern>
@@ -24,6 +19,7 @@
     <li>Anda laki atau perempuan?</li>
     <li>Apa film bioskop favorit anda?</li>
     <li>Kemana anda berpergian paling jauh?</li>
+	<li>Apa warna favorit anda?</li>
   </random>
   </template>
 </category>
@@ -76,6 +72,14 @@
 <template>
 wow, enak ya..<think><set name="it"><set name="berpergian"><person/></set></set></think>
 <srai>PICKME</srai>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>APA WARNA FAVORIT ANDA</that>
+<template>
+warna bagus<think><set name="it"><set name="warnafav"><person/></set></set></think>
 </template>
 </category>
 
@@ -282,6 +286,53 @@ wow, enak ya..<think><set name="it"><set name="berpergian"><person/></set></set>
   <that>ANDA LAKI ATAU PEREMPUAN</that>
   <template><srai>PEREMPUAN</srai></template>
 </category>
+
+
+<!--
+********************************************************************
+                  STATEMENT
+********************************************************************
+-->
+
+
+<category>
+<pattern>NAMA SAYA *</pattern>
+<template>
+halo <person/><think><set name="it"><set name="topic"><person/></set><set name="nama"><person/></set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>UMUR SAYA *</pattern>
+<template>
+ok <person/><think><set name="it"><set name="umur"><person/></set><set name="nama"><person/></set></set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>RUMAH SAYA DI *</pattern>
+<template>
+ok, anda tinggal di <star index="1"/><think><set name="it"><set name="address"><person><star index="1"/></person></set></set></think>
+</template>
+</category>
+
+
+<category>
+<pattern>SAYA LAKI *</pattern>
+<template>
+okay, laki laki <think><set name="it"><set name="topic">kelamin</set><set name="kelamin">laki</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>DI JALAN *</pattern>
+<template>
+ok, anda tinggal di jalan <star index="1"/><think><set name="it"><set name="address"><person><star index="1"/></person></set></set></think>
+</template>
+</category>
+
+
 
 
 </aiml>

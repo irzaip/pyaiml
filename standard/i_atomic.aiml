@@ -2,29 +2,13 @@
 
 <aiml>
 
-<category>
-  <pattern>HAI</pattern>
-  <template>
-  <random>
-    <li>Hai juga</li>
-    <li>Hallo</li>
-    <li>Apa kabar?</li>
-    <li>Haaaiiii</li>
-  </random>
-  </template>
-</category>
 
-<category>
-  <pattern>DAGH</pattern>
-  <template>
-  <random>
-    <li>Bubye</li>
-    <li>byeeee</li>
-    <li>Sampai jumpa</li>
-    <li>Sampai ketemu lagi</li>
-  </random>
-  </template>
-</category>
+<!--
+********************************************************************
+                  MOHON
+********************************************************************
+-->
+
 
 <category>
   <pattern>MOHON</pattern>
@@ -38,6 +22,14 @@
   </template>
 </category>
 
+
+<!--
+********************************************************************
+                  TERIMA KASIH
+********************************************************************
+-->
+
+
 <category>
   <pattern>TERIMA KASIH</pattern>
   <template>
@@ -46,9 +38,43 @@
     <li>ok</li>
     <li>no problem</li>
     <li>gak masalah</li>
+	<li>dengan senang hati</li>
+	<li>ah, gak masalah kok</li>
   </random>
   </template>
 </category>
+
+<category>
+<pattern>TERIMA KASIH KEMBALI</pattern>
+<template>Sama-sama, dengan senang hati</template>
+</category>
+
+<category>
+<pattern>TERIMA KASIH *</pattern>
+<template><srai>TERIMA KASIH KEMBALI</srai></template>
+</category>
+
+<category>
+<pattern>TERIMA KASIH</pattern>
+<template>Kembali, sama-sama</template>
+</category>
+
+<category>
+<pattern>SENANG HATI</pattern>
+<template>Saya lah yang semestinya bersenang hati</template>
+</category>
+
+<category>
+<pattern>SENANG * BICARA *</pattern>
+<template>Senang bisa bicara juga<get name="name"/>.</template>
+</category>
+
+
+<!--
+********************************************************************
+                  SIAPA KAMU
+********************************************************************
+-->
 
 <category>
   <pattern>SIAPA KAMU</pattern>
@@ -58,9 +84,63 @@
     <li>gue Irza</li>
     <li>Irza Pulungan</li>
     <li>Nama saya Irza</li>
+	<li>Nama saya Irza Pulungan</li>
   </random>
  </template>
 </category>
+
+
+<!--
+*********************************************************************
+                   HAHA
+*********************************************************************
+-->
+
+<category>
+  <pattern>HAHA</pattern>
+  <template><random>
+    <li>ha ha ha...</li>
+	<li>hehe</li>
+	<li>xixix..</li>
+	<li>wkwkwkw..</li>
+	<li>kocak?</li>
+	<li>lucu?</li>
+  </random></template>
+</category>
+
+<category><pattern>HEHE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HEHEHE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HEHEHEHE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HEHEHEHEHE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HUHU</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HAHAHA</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HAHAHAHA</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HAHAHAHAHA</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HA</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HUE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HUEHUE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HUEHUEHUE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HUEHUEHUEHUE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>HUEHUEHUEHUEHUE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>XI</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>XIXI</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>XIXIXI</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>XIXIXIXI</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>XIXIXIXIXI</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WK</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WKWK</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WKWKWK</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WKWKWKWK</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WKWKWKWKWK</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KOCAK</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>LUCU</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WHAHA</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>LUCULO</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>LUCU LO</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>LUCU LOE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>ANJING</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>ANJRIT</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>BABI</pattern><template><srai>HAHA</srai></template></category>
 
 
 </aiml>

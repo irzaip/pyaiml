@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
 
-<category>
-  <pattern>CONNECT</pattern>
-  <template>
-    <think> <srai>SET PREDICATES OM</srai> <set name="name">JUDGE <star/></set> </think>
-    <random>
-      <li>Hallo..</li>
-      <li>Kita sudah mulai?</li>
-      <li>Apa kamu di situ?</li>
-      <li>Hallooo.. ada orang di situ?</li>
-    </random>
-  </template>
-</category>
 
 
 
@@ -33,7 +21,9 @@
     <random>
        <li><srai>TANYA</srai></li>
        <li><srai>PICKMEUP</srai></li>
-    </random>
+       <li><srai>PICKMEUP</srai></li>
+       <li><srai>PICKMEUP</srai></li>
+	   </random>
   </template>
 </category>
 
@@ -41,6 +31,8 @@
   <pattern>PICKMEUP</pattern>
   <template>
     <random>
+	<li>Terus... </li>
+	<li>Lanjut... </li>
     <li>Kenapa? lebih spesifiknya?</li>
     <li>Ada yang bisa saya bantu?</li>
     <li>Tolong ceritakan ke saya</li>
@@ -87,12 +79,28 @@
     <li>Bisa anda ceritakan menggunakan kata-kata lain?</li>
 	<li><srai>BANTU</srai></li>
 	<li><srai>GOSSIP</srai></li>
+    <li><srai>FAKTA</srai></li>
+	<li><srai>PANTUN</srai></li>
+	<li><srai>BIJAK</srai></li>
+
     </random>
    </template>
 </category>
 
 
+<category>
+  <pattern>QUOTE</pattern>
+  <template><random>
+    <li><srai>GOSSIP</srai></li>
+    <li><srai>FAKTA</srai></li>
+    <li><srai>BIJAK</srai></li>
+    <li><srai>PANTUN</srai></li>
+   </random>
+  </template>
+ </category>
+ 
 
+ 
 
 <!-- CATEGORY ALIH KE BAHASA INDONESIA -->
 
@@ -160,6 +168,66 @@
   <template>
     saya juga dong.
 </template>
+</category>
+
+
+
+<!-- 
+***********************************************************
+                   DEBUG
+***********************************************************				   
+ -->
+
+<category>
+<pattern>STATUS</pattern>
+<template>Bahasa: <get name="language"/>, Nama : <get name="nama"/>, Umur : <get name="umur"/>, kelamin: <get name="gender"/>, Bekerja: <get name="bekerja"/>, p.jauh: <get name="berpergian"/>, Film: <get name="filmfav"/>
+</template>
+</category>
+
+
+<category>
+  <pattern>CONNECT</pattern>
+  <template>
+    <think> <srai>SET PREDICATES OM</srai> <set name="name">JUDGE <star/></set> </think>
+    <random>
+      <li>Hallo..</li>
+      <li>Kita sudah mulai?</li>
+      <li>Apa kamu di situ?</li>
+      <li>Hallooo.. ada orang di situ?</li>
+    </random>
+  </template>
+</category>
+
+<category>
+<pattern>SIAPA SAYA</pattern>
+<template>Kamu adalah <get name="nama"/></template>
+</category>
+
+<category>
+<pattern>APA IT</pattern>
+<template><get name="it"/>.</template>
+</category>
+
+<category>
+<pattern>APA ITU KUDA</pattern>
+<template>
+Kuda itu binatang.<think><set name="it"><set name="topic">kuda</set></set></think>
+</template>
+</category>
+
+<category>
+<pattern>APA KELAMIN SAYA</pattern>
+<template><get name="kelamin"/>.</template>
+</category>
+
+<category>
+<pattern>APA TOPIK</pattern>
+<template>Topik kita, <get name="topic"/>.</template>
+</category>
+
+<category>
+<pattern>APA WARNA FAVORIT SAYA</pattern>
+<template>anda suka dengan warna <get name="warnafav"/>.. betul?</template>
 </category>
 
 
