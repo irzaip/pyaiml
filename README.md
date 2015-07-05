@@ -47,3 +47,28 @@ k.respond("load aiml b")
 # line and printing responses.
 while True: print k.respond(raw_input("> "))
 ```
+
+
+To INSTALL
+----------
+
+    1. clone this repo inside site-package directory.
+	2. modify all path file std-startup.xml 
+	3. modify path at start-aiml.py
+
+
+	
+HELPER
+------
+     help2line.py is a helper for formatting AIML for 2 lines 
+	 conversation lines
+	 save all line in peribahasa.txt
+	 then run the helper.
+	 
+    
+REMEMBER
+--------
+
+   -- inside <pattern> tag -> MUST CAPITAL
+   
+   

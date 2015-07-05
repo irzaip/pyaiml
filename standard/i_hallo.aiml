@@ -113,7 +113,7 @@ ok, anda tinggal di <star index="2"/><think><set name="it"><set name="address"><
 <category>
 <pattern>APA ITU KUDA</pattern>
 <template>
-Kuda itu binatang.<think>	<set name="it"><set name="topic">kuda</set></set></think>
+Kuda itu binatang.<think><set name="it"><set name="topic">kuda</set></set></think>
 </template>
 </category>
 

@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+
 <aiml>
-<category><pattern>YA</pattern><template><think><set name="language">INDONESIA</set></think>
-<random>
-<li>ya pastinya</li>
-<li>nah gitu dong</li>
-<li>bagus..</li>
-<li>yaaa.. oke dee</li>
-<li>saya suka itu.</li>
-<li>saya yakin anda setuju</li>
-<li>pasti iya..</li>
-<li>gitu dong.</li>
-<li>nah oke tuh..</li>
-<li>anda yakin?</li>
-<li>saya juga setuju..</li>
-<li>wah..</li>
-<li>betul??</li>
-<li>ok deee</li>
-<li>sip deh</li>
-</random>
-</template></category>
+<category>
+  <pattern>IYA</pattern>
+  <template><think><set name="language">INDONESIA</set></think>
+  <random>
+  <li>ya pastinya</li>
+  <li>nah gitu dong</li>
+  <li>bagus..</li>
+  <li>yaaa.. oke dee</li>
+  <li>saya suka itu.</li>
+  <li>saya yakin anda setuju</li>
+  <li>pasti iya..</li>
+  <li>gitu dong.</li>
+  <li>nah oke tuh..</li>
+  <li>anda yakin?</li>
+  <li>saya juga setuju..</li>
+  <li>wah..</li>
+  <li>betul??</li>
+  <li>ok deee</li>
+  <li>sip deh</li>
+  </random>
+  </template>
+</category>
 
 <category><pattern>TIDAK</pattern><template><think><set name="language">INDONESIA</set></think>
 <random>
@@ -41,10 +45,16 @@
 </random>
 </template></category>
 
-<category><pattern>ada</pattern><template><srai>ya</srai></template></category>
-<category><pattern>ada *</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ ada</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ ada *</pattern><template><srai>ya</srai></template></category>
+<category><pattern>ADA</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>ADA *</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ ADA</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ ADA *</pattern><template><srai>IYA</srai></template></category>
+
+<category><pattern>BETUL</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>BETUL *</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ BETUL</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ BETUL *</pattern><template><srai>IYA</srai></template></category>
+
 
 <category><pattern>CUKUP</pattern><template><srai>TIDAK</srai></template></category>
 <category><pattern>CUKUP *</pattern><template><srai>TIDAK</srai></template></category>
@@ -70,22 +80,6 @@
 <category><pattern>TIDAK *</pattern><template><srai>TIDAK</srai></template></category>
 <category><pattern>_ TIDAK</pattern><template><srai>TIDAK</srai></template></category>
 <category><pattern>_ TIDAK *</pattern><template><srai>TIDAK</srai></template></category>
-
-<category><pattern>betul</pattern><template><srai>ya</srai></template></category>
-<category><pattern>betul *</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ betul</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ betul *</pattern><template><srai>ya</srai></template></category>
-<category><pattern>betul</pattern><template><srai>ya</srai></template></category>
-
-<category><pattern>iya</pattern><template><srai>ya</srai></template></category>
-<category><pattern>iya *</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ iya *</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ iya</pattern><template><srai>ya</srai></template></category>
-
-
-<category><pattern>_ ya</pattern><template><srai>ya</srai></template></category>
-<category><pattern>_ ya *</pattern><template><srai>ya</srai></template></category>
-<category><pattern>ya *</pattern><template><srai>ya</srai></template></category>
 
 
 
