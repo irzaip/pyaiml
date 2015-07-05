@@ -69,6 +69,6 @@ HELPER
 REMEMBER
 --------
 
-   -- inside <pattern> tag -> MUST CAPITAL
+   -- inside :pattern: tag -> MUST CAPITAL
    
    
