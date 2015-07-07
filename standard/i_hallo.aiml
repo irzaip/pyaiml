@@ -563,10 +563,22 @@
 <li>Apa kabar?</li>
 <li>Apha Khabar?</li>
 <li>Ava Khabar</li>
+<li>Hi</li>
+<li>Hai</li>
 </random>
 </template>
 </category>
 
+
+<category>
+<pattern>HAI</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+<category>
+<pattern>HEI</pattern>
+<template><srai>HELLO</srai></template>
+</category>
 
 <category>
 <pattern>ALLO</pattern>

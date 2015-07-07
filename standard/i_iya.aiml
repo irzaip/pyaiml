@@ -82,8 +82,25 @@
 <category><pattern>_ TIDAK *</pattern><template><srai>TIDAK</srai></template></category>
 
 
+<category>
+  <pattern>OK</pattern>
+  <template><srai>IYA</srai></template>
+</category>
 
+<category>
+  <pattern>OK DEH</pattern>
+  <template><srai>IYA</srai></template>
+</category>
 
+<category>
+  <pattern>OK DECH</pattern>
+  <template><srai>IYA</srai></template>
+</category>
+
+<category>
+  <pattern>OK DECH KAKA</pattern>
+  <template><srai>IYA</srai></template>
+</category>
 
 </aiml>
 

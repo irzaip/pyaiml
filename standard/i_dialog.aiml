@@ -64,6 +64,10 @@ okay, manusia<think><set name="he">manusia</set></think>
   </random> </template> 
 </category> 
 
+<category><pattern>APA KERJA KAMU</pattern><template><srai>KAMU KERJA</srai></template></category>
+<category><pattern>NGAPAIN KERJA KAMU</pattern><template><srai>KAMU KERJA</srai></template></category>
+<category><pattern>DIMANA KERJA</pattern><template><srai>KAMU KERJA</srai></template></category>
+
 
 <category><pattern>_ KAMU KERJA</pattern><template><srai>KAMU KERJA</srai></template></category>
 <category><pattern>_ KAMU * KERJA</pattern><template><srai>KAMU KERJA</srai></template></category>
@@ -181,6 +185,65 @@ mari,..<think><set name="it"><set name="topic"><person/></set></set></think>
   </random>
 <think><set name="it"><set name="topic"><person/></set></set></think>
 </template>
+</category>
+
+<!--
+*********************************************************************
+                   DIMANA TINGGAL?
+*********************************************************************
+-->
+
+
+<category>
+  <pattern>DIMANA KAMU</pattern>
+  <template><random>
+  <li>disini sini aja</li>
+  <li>dirumah</li>
+  <li>jakarta selatan</li>
+  <li>deket semanggi</li>
+  <li>saya tinggal di jakarta</li>
+  </random></template>
+</category>
+
+
+<category>
+  <pattern>TINGGAL DIMANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>TINGGAL DI MANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>DIMANA RUMAH</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>DI MANA RUMAH</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU DIMANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU DI MANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU TINGGAL DIMANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>TEMPAT TINGGAL</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
 </category>
 
 
