@@ -72,3 +72,8 @@ REMEMBER
    -- inside :pattern: tag -> MUST CAPITAL
    
    
+FLASHCHAT BOT
+-------------
+   please use irzflashbot.swf upload to make a flashbot
+   html code included
+
