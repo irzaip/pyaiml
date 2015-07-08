@@ -107,6 +107,19 @@
 	<li>lucu?</li>
   </random></template>
 </category>
+
+
+<category><pattern>KEKE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KEKEKE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KEKEKEKE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KEKEKEKEKE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KE KE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KE KE KE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KE KE KE KE</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>KE KE KE KE KE</pattern><template><srai>HAHA</srai></template></category>
+
+
+
 <category><pattern>HE</pattern><template><srai>HAHA</srai></template></category>
 <category><pattern>HEHE</pattern><template><srai>HAHA</srai></template></category>
 <category><pattern>HEHEHE</pattern><template><srai>HAHA</srai></template></category>
@@ -156,6 +169,7 @@
 <category><pattern>ANJING</pattern><template><srai>HAHA</srai></template></category>
 <category><pattern>ANJRIT</pattern><template><srai>HAHA</srai></template></category>
 <category><pattern>BABI</pattern><template><srai>HAHA</srai></template></category>
+<category><pattern>WAKAKA</pattern><template><srai>HAHA</srai></template></category>
 
 <category><pattern>HI HI</pattern><template><srai>HAHA</srai></template></category>
 <category><pattern>HI HI HI</pattern><template><srai>HAHA</srai></template></category>

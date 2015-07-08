@@ -84,6 +84,10 @@ okay, manusia<think><set name="he">manusia</set></think>
                   REPLACERZ - REDUXION KERJA
 *********************************************************************
 -->
+<category><pattern>D</pattern><template><srai>DI</srai></template></category>
+<category><pattern>D *</pattern><template><srai>DI <star/></srai></template></category>
+<category><pattern>_ D</pattern><template><srai><star/> DI <star index="2"/></srai></template></category>
+<category><pattern>_ D *</pattern><template><srai><star/> DI <star index="2"/></srai></template></category>
 
 <category><pattern>AQ</pattern><template><srai>SAYA</srai></template></category>
 <category><pattern>AQ *</pattern><template><srai>SAYA <star/></srai></template></category>
@@ -100,9 +104,30 @@ okay, manusia<think><set name="he">manusia</set></think>
 <category><pattern>_ AKU</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
 <category><pattern>_ AKU *</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
 
-<category><pattern>SAYA *</pattern><template>oh.. <srai><star/></srai></template></category>
-<category><pattern>_ SAYA</pattern><template><srai><star/> <star index="2"/></srai></template></category>
-<category><pattern>_ SAYA *</pattern><template><srai><star/> <star index="2"/></srai></template></category>
+<category><pattern>GW</pattern><template><srai>SAYA</srai></template></category>
+<category><pattern>GW *</pattern><template><srai>SAYA <star/></srai></template></category>
+<category><pattern>_ GW</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+<category><pattern>_ GW *</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+
+<category><pattern>GUWA</pattern><template><srai>SAYA</srai></template></category>
+<category><pattern>GUWA *</pattern><template><srai>SAYA <star/></srai></template></category>
+<category><pattern>_ GUWA</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+<category><pattern>_ GUWA *</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+
+<category><pattern>GUE</pattern><template><srai>SAYA</srai></template></category>
+<category><pattern>GUE *</pattern><template><srai>SAYA <star/></srai></template></category>
+<category><pattern>_ GUE</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+<category><pattern>_ GUE *</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+
+<category><pattern>G</pattern><template><srai>SAYA</srai></template></category>
+<category><pattern>G *</pattern><template><srai>SAYA <star/></srai></template></category>
+<category><pattern>_ G</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+<category><pattern>_ G *</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+
+<category><pattern>OWE</pattern><template><srai>SAYA</srai></template></category>
+<category><pattern>OWE *</pattern><template><srai>SAYA <star/></srai></template></category>
+<category><pattern>_ OWE</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
+<category><pattern>_ OWE *</pattern><template><srai><star/> SAYA <star index="2"/></srai></template></category>
 
 <category><pattern>BEKERJA *</pattern><template><srai>KERJA <star/></srai></template></category>
 <category><pattern>_ BEKERJA</pattern><template><srai><star/> KERJA <star index="2"/></srai></template></category>
@@ -152,6 +177,9 @@ okay, manusia<think><set name="he">manusia</set></think>
 <category><pattern>_ NGAPAIN</pattern><template><srai><star/> USAHA <star index="2"/></srai></template></category>
 <category><pattern>_ NGAPAIN *</pattern><template><srai><star/> USAHA <star index="2"/></srai></template></category>
 
+<category><pattern>INGIN *</pattern><template><srai>MAU <star/></srai></template></category>
+<category><pattern>_ INGIN</pattern><template><srai><star/> MAU <star index="2"/></srai></template></category>
+<category><pattern>_ INGIN *</pattern><template><srai><star/> MAU <star index="2"/></srai></template></category>
 
 <!--
 *********************************************************************
@@ -192,6 +220,7 @@ mari,..<think><set name="it"><set name="topic"><person/></set></set></think>
                    DIMANA TINGGAL?
 *********************************************************************
 -->
+
 
 
 <category>
@@ -295,6 +324,93 @@ ada apa di <star index="1"/>?<think><set name="it"><set name="address"><person><
 </category>
 
 
+<!--
+*********************************************************************
+              SAYA
+*********************************************************************
+-->
+
+
+<category>
+  <pattern>SAYA</pattern>
+  <template><random>
+    <li>kenapa kamu?</li>
+    <li>trus?</li>
+    <li>wow.. kamu?</li>
+    <li>hah?.. yg bener?</li>
+	</random></template>
+</category>
+
+<category>
+  <pattern>SAYA *</pattern>
+  <template><random>
+    <li>trus?</li>
+    <li>wow.. kamu?</li>
+    <li>hah?.. yg bener?</li>
+	<li>pantesan</li>
+	<li>saya yakin kamu begitu</li>
+	<li>hehe betul</li>
+	<li>eheh saya setuju</li>
+	<li>waduh..</li>
+	<li>aw</li>
+	</random></template>
+</category>
+
+
+<category>
+  <pattern>SAYA MAU *</pattern>
+  <template><random>
+    <li>kenapa kamu mau itu?</li>
+    <li>oh ya..? menarik sekali</li>
+    <li>mau ya?</li>
+    <li>hmm.. seru tuh</li>
+    <li>wow..</li>
+    <li>hah?.. yg bener?</li>
+	</random></template>
+</category>
+
+<category>
+  <pattern>SAYA DI *</pattern>
+  <template><random>
+     <li>kamu di <star/></li>
+     <li>tempatmu di <star/></li>
+     <li>saya di <star/>?</li>
+	 <li>gitu ya?</li>
+    <li>oh ya..? menarik sekali</li>
+    <li>oh ya?</li>
+    <li>hmm.. seru tuh</li>
+    <li>wow..</li>
+    <li>hah?.. yg bener?</li>
+	</random></template>
+</category>
+
+
+<!--
+*********************************************************************
+               BENAR
+*********************************************************************
+-->
+
+<category>
+  <pattern>BENAR</pattern>
+  <template><random>
+    <li>oh ya?</li>
+    <li>beneran?</li>
+    <li>sungguh?</li>
+    <li>betul</li>
+    <li>beneer</li>
+	</random></template>
+</category>
+
+<category>
+  <pattern>BETUL</pattern>
+  <template><srai>BENAR</srai></template>
+</category>
+
+<category>
+  <pattern>BENERL</pattern>
+  <template><srai>BENAR</srai></template>
+</category>
 
 
 </aiml>

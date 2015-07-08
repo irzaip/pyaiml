@@ -55,6 +55,25 @@
 <category><pattern>_ BETUL</pattern><template><srai>IYA</srai></template></category>
 <category><pattern>_ BETUL *</pattern><template><srai>IYA</srai></template></category>
 
+<category><pattern>HEEH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>HEEH *</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HEEH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HEEH *</pattern><template><srai>IYA</srai></template></category>
+
+<category><pattern>HOOH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>HOOH *</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HOOH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HOOH *</pattern><template><srai>IYA</srai></template></category>
+
+<category><pattern>HE EH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>HE EH *</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HE EH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HE EH *</pattern><template><srai>IYA</srai></template></category>
+
+<category><pattern>HO OH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>HO OH *</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HO OH</pattern><template><srai>IYA</srai></template></category>
+<category><pattern>_ HO OH *</pattern><template><srai>IYA</srai></template></category>
 
 <category><pattern>CUKUP</pattern><template><srai>TIDAK</srai></template></category>
 <category><pattern>CUKUP *</pattern><template><srai>TIDAK</srai></template></category>
