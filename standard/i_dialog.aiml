@@ -78,6 +78,30 @@ okay, manusia<think><set name="he">manusia</set></think>
 <category><pattern>KAMU * KERJA *</pattern><template><srai>KAMU KERJA</srai></template></category>
 <category><pattern>_ KAMU * KERJA *</pattern><template><srai>KAMU KERJA</srai></template></category>
 
+<category>
+  <pattern>USAHA APA</pattern>
+  <template>Saya usaha dibidang properti dan IT</template>
+</category>
+
+<category>
+  <pattern>PERUSAHAAN APA</pattern>
+  <template><srai>USAHA APA</srai></template>
+</category>
+
+<category>
+  <pattern>USAHA</pattern>
+  <template><srai>USAHA APA</srai></template>
+</category>
+
+<category>
+  <pattern>BERUSAHA</pattern>
+  <template><srai>USAHA APA</srai></template>
+</category>
+
+<category>
+  <pattern>APA USAHA</pattern>
+  <template><srai>USAHA APA</srai></template>
+</category>
 
 <!--
 *********************************************************************
@@ -271,6 +295,31 @@ mari,..<think><set name="it"><set name="topic"><person/></set></set></think>
 </category>
 
 <category>
+  <pattern>KAMU RUMAH DIMANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU RUMAHNYA DIMANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU RUMAH DI MANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU RUMAHNYA DI MANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
+  <pattern>KAMU RUMAH NYA DI MANA</pattern>
+  <template><srai>DIMANA KAMU</srai></template>
+</category>
+
+<category>
   <pattern>TEMPAT TINGGAL</pattern>
   <template><srai>DIMANA KAMU</srai></template>
 </category>
@@ -387,6 +436,88 @@ ada apa di <star index="1"/>?<think><set name="it"><set name="address"><person><
 
 <!--
 *********************************************************************
+               KAMU
+*********************************************************************
+-->
+
+<category>
+  <pattern>KAMU *</pattern>
+  <template><random>
+    <li>saya memang begitu</li>
+	<li>saya tidak menolak</li>
+	<li>betul</li>
+	<li>saya rasa begitu</li>
+	<li>he eh.. </li>
+	<li>wow. kamu tahu?</li>
+	<li>yakin benar kamu</li>
+	<li>yep.. </li>
+  </random></template>
+</category>
+
+
+<category>
+  <pattern>KAMU</pattern>
+  <template><random>
+    <li>saya?</li>
+	<li>masa sih?</li>
+	<li>gak ah</li>
+	<li>ehm.. </li>
+	<li>sssttt..</li>
+	<li>ok</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern>KAMU ROBOT</pattern>
+  <template><random>
+    <li>betul itu.</li>
+	<li>kok kamu tahu?</li>
+	<li>he eh.. bip bip</li>
+	<li>betuuuul...*process</li>
+	<li>wakaka.. ketahuan deh</li>
+	<li>jangan bilang siapa-siapa ya.</li>
+  </random></template>
+</category>
+
+<!-- KAMU IRZA? -->
+<category>
+  <pattern>KAMU KAMU</pattern>
+  <template><random>
+    <li>betul</li>
+	<li>kok kamu tahu?</li>
+	<li>iya. tahu darimana?</li>
+	<li>gak salah lagi</li>
+	<li>saya setuju</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern>KAMU SIAPA</pattern>
+  <template><srai>SIAPA KAMU</srai></template>
+</category>
+
+
+<category>
+  <pattern>KAMU DI JAKARTA</pattern>
+  <template>iya betul</template>
+</category>
+
+<category>
+  <pattern>KAMU DI JKT</pattern>
+  <template>iya betul</template>
+</category>
+
+<category>
+  <pattern>KAMU DI TULODONG</pattern>
+  <template>iya betul</template>
+</category>
+
+
+
+
+
+<!--
+*********************************************************************
                BENAR
 *********************************************************************
 -->
@@ -412,5 +543,39 @@ ada apa di <star index="1"/>?<think><set name="it"><set name="address"><person><
   <template><srai>BENAR</srai></template>
 </category>
 
+
+<!--
+*********************************************************************
+       PULAU DAN LOKASI
+*********************************************************************
+-->
+
+
+<category>
+  <pattern>_ SUMATRA *</pattern>
+  <template><random>
+    <li>Wow sumatra.</li>
+	<li>ortu saya dari sumatra</li>
+	<li>saya suka sipirok</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern>_ JAWA *</pattern>
+  <template><random>
+    <li>pulau jawa banyak orang jawa</li>
+	<li>macet</li>
+	<li>ah java</li>
+  </random></template>
+</category>
+
+<category>
+  <pattern>_ JAKARTA *</pattern>
+  <template><random>
+    <li>saya tinggal di jakarta</li>
+	<li>yah deket semanggi</li>
+	<li>tulodong</li>
+  </random></template>
+</category>
 
 </aiml>

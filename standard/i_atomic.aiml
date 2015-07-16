@@ -329,6 +329,24 @@
 </category>
 
 
+<!--
+*********************************************************************
+   PUJIAN
+*********************************************************************
+-->
+
+<category>
+  <pattern>PUJIAN</pattern>
+  <template><random>
+    <li>anda sungguh cerdas</li>
+	<li>kamu asik</li>
+	<li>asik banget lo</li>
+	<li>cool bro</li>
+	<li>kamu pintar</li>
+	<li>kamu cerdas</li>
+	<li>kamu sungguh cerdik</li>
+  </random></template>
+</category>
 
 
 </aiml>

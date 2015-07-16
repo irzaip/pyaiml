@@ -812,5 +812,18 @@
 </category>
 
 
+<category>
+  <pattern>SALAM KENAL</pattern>
+  <template><random>
+    <li>salam kenal juga</li>
+	<li>salam kenal buat anda</li>
+	<li>salam juga</li>
+	<li>hai salam, kamu dimana?</li>
+  </random></template>
+</category>
 
+<category>
+  <pattern>SALAM KENAL *</pattern>
+  <template><srai>SALAM KENAL</srai></template>
+</category>
 </aiml>

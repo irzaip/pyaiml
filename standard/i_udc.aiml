@@ -23,6 +23,11 @@
        <li><srai>PICKMEUP</srai></li>
        <li><srai>PICKMEUP</srai></li>
        <li><srai>PICKMEUP</srai></li>
+       <li><srai>TANYA</srai></li>
+       <li><srai>PICKMEUP</srai></li>
+       <li><srai>PICKMEUP</srai></li>
+       <li><srai>PICKMEUP</srai></li>
+	   <li><srai>QUOTE</srai></li>
 	   </random>
   </template>
 </category>
@@ -34,7 +39,7 @@
 	<li>Terus... </li>
 	<li>Lanjut... </li>
     <li>Kenapa? lebih spesifiknya?</li>
-    <li>Ada yang bisa saya bantu?</li>
+    <li>Ada yang saya bisa bantu?</li>
     <li>Tolong ceritakan ke saya</li>
     <li>Anda mempunyai keluhan? Apa keluhan anda? </li>
     <li>Indah sekali</li>
@@ -77,12 +82,6 @@
     <li>Apa anda bertanya siapa yang menjawab?</li>
     <li>Menurut anda saya kurang pandai?</li>
     <li>Bisa anda ceritakan menggunakan kata-kata lain?</li>
-	<li><srai>BANTU</srai></li>
-	<li><srai>GOSSIP</srai></li>
-    <li><srai>FAKTA</srai></li>
-	<li><srai>PANTUN</srai></li>
-	<li><srai>BIJAK</srai></li>
-
     </random>
    </template>
 </category>
@@ -95,7 +94,9 @@
     <li><srai>FAKTA</srai></li>
     <li><srai>BIJAK</srai></li>
     <li><srai>PANTUN</srai></li>
-   </random>
+    <li><srai>BANTU</srai></li>
+	<li><srai>PUJIAN</srai></li>
+	</random>
   </template>
  </category>
  
@@ -229,6 +230,12 @@ Kuda itu binatang.<think><set name="it"><set name="topic">kuda</set></set></thin
 <pattern>APA WARNA FAVORIT SAYA</pattern>
 <template>anda suka dengan warna <get name="warnafav"/>.. betul?</template>
 </category>
+
+<category>
+  <pattern>HTTP *</pattern>
+  <template><system>EXPLORE *</system></template>
+</category>
+
 
 
 </aiml>

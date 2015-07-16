@@ -2,6 +2,27 @@
 <aiml>
 
 <category>
+  <pattern>TOLONGIN SAYA</pattern>
+  <template><srai>BISA DIBANTU</srai></template>
+</category>
+
+<category>
+  <pattern>TOLONG</pattern>
+  <template><srai>BISA DIBANTU</srai></template>
+</category>
+
+<category>
+  <pattern>TOLONG SAYA</pattern>
+  <template><srai>BISA DIBANTU</srai></template>
+</category>
+
+<category>
+  <pattern>TOLONG BANTU SAYA</pattern>
+  <template><srai>BISA DIBANTU</srai></template>
+</category>
+
+
+<category>
   <pattern>BANTU SAYA</pattern>
   <template><srai>BISA DIBANTU</srai></template>
 </category>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+<!--
+*********************************************************************
+    MATIKAN
+*********************************************************************
+-->
+
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG KACA</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG TELEVISI</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG MAKAN</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG DAPUR</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG TERAS</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU TERAS</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG MASAK</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG TAMU</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG BELAKANG</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU RUANG KAMAR MANDI DEPAN</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU KAMAR MANDI DEPAN</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<category>
+  <pattern>MATIKAN LAMPU KAMAR MANDI TAMU</pattern>
+  <template>Ok, telah dimatikan</template>
+</category>
+
+<!--
+*********************************************************************
+  HIDUPKAN
+*********************************************************************
+-->
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG KACA</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG TELEVISI</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG MAKAN</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG DAPUR</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG TERAS</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU TERAS</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG MASAK</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG TAMU</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG BELAKANG</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU RUANG KAMAR MANDI DEPAN</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU KAMAR MANDI DEPAN</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+<category>
+  <pattern>HIDUPKAN LAMPU KAMAR MANDI TAMU</pattern>
+  <template>Ok, telah dihidupkan</template>
+</category>
+
+
+<category>
+  <pattern>NYALAKAN *</pattern>
+  <template><srai>HIDUPKAN <star/></srai></template>
+</category>
+
+<category>
+  <pattern>HIDUPIN *</pattern>
+  <template><srai>HIDUPKAN <star/></srai></template>
+</category>
+
+<category>
+  <pattern>IDUPIN *</pattern>
+  <template><srai>HIDUPKAN <star/></srai></template>
+</category>
+
+<category>
+  <pattern>NYALAIN *</pattern>
+  <template><srai>HIDUPKAN <star/></srai></template>
+</category>
+
+<category>
+  <pattern>MATIIN *</pattern>
+  <template><srai>MATIKAN <star/></srai></template>
+</category>
+
+<category>
+  <pattern>MATI *</pattern>
+  <template><srai>MATIKAN <star/></srai></template>
+</category>
+
+<category>
+  <pattern>OFF *</pattern>
+  <template><srai>MATIKAN <star/></srai></template>
+</category>
+
+
+<category>
+  <pattern>NYALAKAN AC</pattern>
+  <template>ok ac telah dinyalakan</template>
+</category>
+
+<category>
+  <pattern>NYALA AC</pattern>
+  <template>nyalakan ac?</template>
+</category>
+
+<category>
+  <pattern>YA</pattern>
+  <that>* AC</that>
+  <template><srai>NYALAKAN AC</srai></template>
+</category>
+
+
+
+</aiml>
